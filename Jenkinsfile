@@ -6,7 +6,7 @@
 
 stages { 
       stage ('master') {  
-steps { sh"mkdir uday"}
+steps { sh "rm -rf uday" sh"mkdir uday"}
 
 
 }
