@@ -1,6 +1,6 @@
   pipeline {
- agent { label { label 'built-in'
-                 customWokspace '/data/pipe'
+ agent { label { label "built-in"
+                 customWorkspace "/data/pipe"
  }
 }
 
