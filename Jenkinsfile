@@ -6,8 +6,7 @@
 
 stages { 
       stage ('master') {  
-steps { sh"mkdir uday"
-sh " service httpd restart"}
+steps { sh"mkdir uday"}
 
 
 }
