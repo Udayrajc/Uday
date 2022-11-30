@@ -11,7 +11,7 @@ stage ('master') { sh " vi index.html"
 
 }
 
-}
+
 
 
 }
