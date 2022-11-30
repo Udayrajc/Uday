@@ -5,9 +5,10 @@ label {
        customWorkspace '/data/pipe' }
 }
 stages {
-stage ('master') { sh " sudo yum install git -y"
+stage ('master') { stpes
+ { sh " sudo yum install git -y"
                  }
-
+}
 
 }
 
