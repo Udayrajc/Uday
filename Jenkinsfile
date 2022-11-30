@@ -5,8 +5,8 @@ label {
        customWorkspace '/data/pipe' }
 }
 stages {
-stage ('master') { sh " vi index.html"
-                  sh " cp -r index.html /var/www/html" }
+stage ('master') { sh " sudo yum install git -y"
+                 }
 
 
 }
